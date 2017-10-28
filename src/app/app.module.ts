@@ -6,7 +6,7 @@ import { UserService } from './user.service';
 import { AngularFireModule } from 'angularfire2';
 import { environment } from '../environments/environment';
 import { AngularFireAuthModule } from 'angularfire2/auth';
-import { AngularFireDatabaseModule } from 'angularfire2/database-deprecated';
+import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { LvivRecommendationsService } from './lviv-recommendations.service';
 
 @NgModule({

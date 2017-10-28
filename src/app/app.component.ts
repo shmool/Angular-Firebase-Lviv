@@ -48,7 +48,7 @@ export class AppComponent implements OnInit {
   }
 
   updateItem(event, item) {
-    this.lrs.update(item.$key, event.target.value);
+    this.lrs.update(item.key, event.target.value);
     item.edit = false;
   }
 
